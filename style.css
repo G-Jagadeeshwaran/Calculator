@@ -1,0 +1,63 @@
+
+body{
+    background: linear-gradient(To right, #00cc66 0%, #19a05c 100%);
+}
+
+.calculator {
+    background-color: #333333;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    margin-top: 115px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px black;
+}
+
+input {
+    margin: 30px;
+    padding: 5px;
+    width: 310px;
+    margin-left: 15px;
+    height: 35px;
+    background-color: #66ffb3;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: x-large;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+
+}
+
+button {
+    width: 61px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 2px;
+    background-color: #b3ffd9;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.mbtn{
+    background-color: #00cc66;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.ACandresult button {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 146px;
+    background-color: #00cc66;
+}
